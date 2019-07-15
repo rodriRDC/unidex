@@ -1,9 +1,17 @@
 // Styling for the navbar
 #mainNav {
   .logoImg{
-    max-width: 50%;
+    max-width: 25%;
+    min-width: 25%;
     height: auto;
     padding-bottom: 0.5rem;
+  }
+  .navUnidex{
+    display: flex;
+    flex-flow: row;
+  }
+  .navbar-collapse{
+    text-align: right;
   }
   // #alumnos{
   //   border: 2px solid $white;
@@ -52,7 +60,12 @@
   }
 }
 @media(min-width:992px) {
+ 
   #mainNav {
+    .logoImg{
+      max-width: 35%;
+      min-width: 25%;
+    }
     #alumnos{
       border: 2px solid $white;
       border-radius: 3px 3px 35px 3px;

@@ -107,9 +107,24 @@ img::-moz-selection {
 }
 
 #mainNav .logoImg {
-  max-width: 50%;
+  max-width: 25%;
+  min-width: 25%;
   height: auto;
   padding-bottom: 0.5rem;
+}
+
+#mainNav .navUnidex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+#mainNav .navbar-collapse {
+  text-align: right;
 }
 
 #mainNav .navbar-toggler {
@@ -153,6 +168,10 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+  }
+  #mainNav .logoImg {
+    max-width: 35%;
+    min-width: 25%;
   }
   #mainNav #alumnos {
     border: 2px solid #fff;

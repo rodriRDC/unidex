@@ -18,7 +18,7 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_general_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost/WEBS/Unidex/unidex/moodle';
+$CFG->wwwroot   = 'http://localhost/WEBS/Unidex/unidex/campus/moodle';
 $CFG->dataroot  = 'C:\\xampp\\MoodleData';
 $CFG->admin     = 'admin';
 
