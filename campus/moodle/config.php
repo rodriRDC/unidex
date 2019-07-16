@@ -22,6 +22,8 @@ $CFG->wwwroot   = 'http://localhost/WEBS/Unidex/unidex/campus/moodle';
 $CFG->dataroot  = 'C:\\xampp\\MoodleData';
 $CFG->admin     = 'admin';
 
+$CFG->wwwsite    = 'http://localhost/WEBS/Unidex/unidex/site/';
+
 $CFG->directorypermissions = 0777;
 
 require_once(__DIR__ . '/lib/setup.php');

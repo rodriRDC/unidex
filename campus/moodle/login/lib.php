@@ -317,7 +317,8 @@ function core_login_get_return_url() {
         unset($SESSION->wantsurl);
     } else {
         // No wantsurl stored or external - go to homepage.
-        $urltogo = $CFG->wwwroot.'/';
+        //$urltogo = $CFG->wwwroot.'/';
+        $urltogo = $CFG->wwwsite;
         unset($SESSION->wantsurl);
     }
 
@@ -332,6 +333,7 @@ function core_login_get_return_url() {
         }
     }
     return $urltogo;
+    //return $CFG->wwwsite;
 }
 
 /**
